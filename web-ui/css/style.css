@@ -1,36 +1,3 @@
-@font-face {
-    font-family: 'Proxima Nova Rg';
-    src: url('../web-ui/transfonter.org-20180831-095724/ProximaNova-Regular.woff2') format('woff2'),
-        url('../web-ui/transfonter.org-20180831-095724/ProximaNova-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Proxima Nova Bd';
-    src: url('../web-ui/transfonter.org-20180831-100647/ProximaNova-Bold.woff2') format('woff2'),
-        url('../web-ui/transfonter.org-20180831-100647/ProximaNova-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Proxima Nova Lt';
-    src: url('../web-ui/transfonter.org-20180831-092304/ProximaNova-Semibold.woff2') format('woff2'),
-        url('../web-ui/transfonter.org-20180831-092304/ProximaNova-Semibold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Droid Serif';
-    src: url('../web-ui/transfonter.org-20180831-094035/DroidSerif.woff2') format('woff2'),
-        url('../web-ui/transfonter.org-20180831-094035/DroidSerif.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body, html{
     /* overflow: hidden; */
     padding: 0;
@@ -214,9 +181,11 @@ body, html{
 }
 
 .child > .quote{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Proxima Nova Rg';
     font-size: 16px;
+    line-height: 25px;
     font-weight: 300;
+    word-spacing: 3px;
     margin-top:10%;
     padding-right: 40%;
     text-transform: uppercase;
@@ -754,7 +723,7 @@ grid-column-gap: 30px;
 .zigvier{
     text-align: center;
     font-size: 14px;
-    font-weight: 550;
+    font-weight: 300;
     margin-top: 5%;
     font-family: 'Proxima Nova Rg';
     font-style: italic;
