@@ -30,13 +30,18 @@ body, html{
     justify-items: center;
 }
 
+.page-one-child-left >div:nth-child(2){
+    cursor: pointer;
+}
 .page-one-child-left > div:nth-child(3) > button{
     background-color: white;
     width: 30px;
     height: 30px;
     border: .3px solid lightgray;
+    cursor: pointer;
 }
 .logo >img{
+    cursor: pointer;
     margin-top: 60%;
 }
 .page-one-child-right >p{
@@ -227,45 +232,67 @@ body, html{
 }
 .child > .button-more{
     margin-top:5%;
+    margin-left: 38%;
+    width: 80px;
+    height: 80px;
+    border-radius: 99px;
+    background-color: #152483;
+    text-align: center;
+}
+.child > .button-more > img{
+    margin-top: 40%;
+
 }
 
-.plus-more{
+/* .plus-more{
     cursor: pointer;
     position: absolute;
     top: 126%;
     left:75.4%;
-}
+} */
 
 .page-three{
-    display: grid;
     width: 100%;
-    grid-template-columns: 45% 45% 10%; 
+    display: grid;
     height: 700px;
+    margin-bottom: 10%;
 }
 
+.page-three-children{
+    display: grid;
+    justify-items: center;
+    margin-top: 150px;
+    background: url('../img/photo-1473886041811-de35bd962210.png');
+    background-size: 450px 550px;
+    height: 550px;
+}
+
+/* 
 .page-three-background{
     margin-top: 70px;
 }
 
 .page-three > div:nth-child(3){
     justify-self: right;
-}
+} */
 
 .page-three-description{
     /* background-color: red; */
     width: 80%;
     display: grid;
     grid-template-columns: 10% 50% 30% 10%;
-    position: absolute;
+    z-index: 99;
+    /* position: absolute;
     top:215%;
-    left: 11%;
+    left: 11%; */
     justify-items: center;
+    margin-left: 40px;
 }
-.iphone-display{
+/* .iphone-display{
     position: absolute;
     top:9.5%;
     left: 24.7%;
-}
+} */
 
 .page-three-description > .arrow{
     height: fit-content;
@@ -274,12 +301,30 @@ body, html{
     margin-top: 200px;
 }
 
+.iphone{
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+
+.white-back{
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 62%;
+    left: 33%;
+}
+
 .page-three-description >.child >.cross{
     border: .5px solid black;
     width: 40px;
     margin: 20% 0 0 3%;
 }
 
+.page-three-description > .child:nth-child(3){
+    position: relative;
+    bottom: 40px;
+}
 
 .page-three-description > .child >.des{
     font-size: 40px;
@@ -303,7 +348,7 @@ body, html{
 
 .button-page-three{
     margin-left: 3%;
-    margin-top: 40%;
+    margin-top: 65%;
     background-color: white;
 }
 /* 
@@ -314,16 +359,17 @@ body, html{
 
 .page-three-blue-des{
     background-color: #152483;
-    width: 19%;
-    height: 9%;
+    width: 250px;
+    height: 60px;
     position: absolute;
-    top: 284%;
-    left: 40%;
+    top: 93%;
+    left: 55%;
 }
 
 .page-three-blue-des > .child{
     display: grid;
     grid-template-columns: 20% 80%;
+    margin-top: 1.5%;
 }
 
 
@@ -489,7 +535,6 @@ body, html{
 }
 
 .wrapper-page-five{
-    margin-bottom: 7%;
     margin-top: 8%;
     width: 85%;
     display: grid;
@@ -560,12 +605,12 @@ body, html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 630px;
     color: white;
-    position: absolute;
+    position: relative;
     background-color: black;
     display: grid;
     grid-template-rows: auto;
-    top: 468.5%;
-    left: 13%;
+    bottom: 27%;
+    left: 6%;
 }
 
 
