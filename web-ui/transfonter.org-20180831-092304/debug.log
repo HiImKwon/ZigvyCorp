@@ -1,0 +1,11 @@
+[0831/162348.439:ERROR:main_dll_loader_win.cc(156)] Failed to load Chrome DLL from C:\Program Files\Opera\55.0.2994.44\opera_browser.dll: The paging file is too small for this operation to complete. (0x5AF)
+[0831/162348.770:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name plat, discarding value Win64
+[0831/162348.815:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name prod, discarding value OperaDesktop
+[0831/162348.815:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ver, discarding value 55.0.2994.44
+[0831/162348.815:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name channel, discarding value Stable
+[0831/162348.815:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ptype, discarding value browser
+[0831/162349.405:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name plat, discarding value Win64
+[0831/162349.406:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name prod, discarding value OperaDesktop
+[0831/162349.406:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ver, discarding value 55.0.2994.44
+[0831/162349.406:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name channel, discarding value Stable
+[0831/162349.406:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ptype, discarding value browser

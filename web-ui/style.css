@@ -1,3 +1,36 @@
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../web-ui/transfonter.org-20180831-095724/ProximaNova-Regular.woff2') format('woff2'),
+        url('../web-ui/transfonter.org-20180831-095724/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bd';
+    src: url('../web-ui/transfonter.org-20180831-100647/ProximaNova-Bold.woff2') format('woff2'),
+        url('../web-ui/transfonter.org-20180831-100647/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../web-ui/transfonter.org-20180831-092304/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../web-ui/transfonter.org-20180831-092304/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('../web-ui/transfonter.org-20180831-094035/DroidSerif.woff2') format('woff2'),
+        url('../web-ui/transfonter.org-20180831-094035/DroidSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body, html{
     /* overflow: hidden; */
     padding: 0;
@@ -118,9 +151,10 @@ body, html{
 }
 
 .title-list-child > .number-des{
+    font-family: 'Proxima Nova Lt';
+    text-transform: uppercase;
     margin-top:5%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .cross{
@@ -158,6 +192,7 @@ body, html{
 .wrapper-page-two > .child:nth-child(1){
     margin-left: 10%;
 }
+
 .wrapper-page-two >.child:nth-child(3){
      text-align: center; 
     }
@@ -180,19 +215,20 @@ body, html{
 
 .child > .quote{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     margin-top:10%;
     padding-right: 40%;
+    text-transform: uppercase;
     /* background-color: red; */
 }
 
 .child > .description{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
-    color: #494949;
+    font-family: 'Droid Serif';
+    font-size: 14px;
+    color: #494949be;
     line-height: 23px;
-    word-spacing: 4px;
+    word-spacing: 2px;
 }
 
 /* .plus{
@@ -207,7 +243,7 @@ body, html{
     margin-top:10%;
 }
 .button-boi{
-    border: 1px solid rgba(51, 51, 51, 0.664);
+    border: 1px solid #ababab;
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -310,7 +346,7 @@ body, html{
 .white-back{
     position: absolute;
     background-color: white;
-    height: 100%;
+    height: 550px;
     width: 62%;
     left: 33%;
 }
@@ -339,8 +375,8 @@ body, html{
     margin-left: 3%;
     margin-top: 25%;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-family: 'Proxima Nova Rg';
+    font-size: 15px;
 }
 .under-line{
     text-decoration: underline;
@@ -435,6 +471,7 @@ body, html{
 }
 
 .content > article{
+    font-family: 'Droid Serif';
     margin-left: 3.5%;
 }
 
@@ -569,10 +606,11 @@ body, html{
     line-height: 22px;
     font-weight: 700;
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Proxima Nova Bd';
+    
 }
 .description > .des > .des-child >p:nth-child(2){
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Proxima Nova Bd';
     margin-top: 15px;
     font-size: 13px;
     font-weight: 500;
@@ -707,7 +745,7 @@ grid-column-gap: 30px;
 
 .on-board > .user > div:nth-child(3){
     margin-top: 6%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Droid serif';
     padding-right: 30%;
     font-weight: 500;
     font-size: 14px;
@@ -718,7 +756,7 @@ grid-column-gap: 30px;
     font-size: 14px;
     font-weight: 550;
     margin-top: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Proxima Nova Rg';
     font-style: italic;
 }
 
@@ -752,7 +790,7 @@ grid-column-gap: 30px;
 }
 
 .cross-psv{
-    margin-top: 17%;
+    margin-top: 11%;
     border: .3px solid rgba(255, 255, 255, 0.842);
     width: 35px;
 }
@@ -777,7 +815,7 @@ grid-column-gap: 30px;
 }
 
 .page-seven-list{
-    margin-bottom: 14%;
+    margin-bottom: 25%;
     margin-top: 18%;
     display: grid;
     grid-template-rows: repeat(3,auto);
@@ -835,7 +873,7 @@ grid-column-gap: 30px;
 
 .add-contact{
     margin-left: 2%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Proxima Nova Rg';
     font-size: 19px;
     line-height: 35px;
     margin-top: 5%;
@@ -850,6 +888,10 @@ grid-column-gap: 30px;
 .add-contact > .add > p{
     padding: 0;
     margin: 0;
+}
+
+.add-contact > .add{
+    text-align: right;
 }
 
 .add-contact > .contact,.add-contact > .add{
